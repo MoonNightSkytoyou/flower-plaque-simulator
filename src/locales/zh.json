@@ -1,0 +1,42 @@
+{
+  "brand": "花牌師傅的一天",
+  "language": { "label": "語言", "zh": "中文", "en": "English" },
+  "sound": { "on": "聲音：開", "off": "聲音：關" },
+  "steps": { "menu": "選單", "quote": "報價", "craft": "工藝", "staff": "人手", "production": "製作", "changes": "改稿", "installation": "安裝", "settlement": "結算" },
+  "metrics": { "cash": "可用現金", "hours": "師傅工時", "hourUnit": "小時", "energy": "體力", "craft": "工藝", "inheritance": "傳承" },
+  "header": { "choose": "先讀三張訂單，再決定今天接哪一張。", "progress": "遊戲進度" },
+  "home": { "kicker": "香港傳統花牌 · 教學模擬", "title": "今日，有三張\n訂單等你回覆。", "lede": "報價高不代表比較好賺。尺寸、死線、人手與運輸，會一起改變最後留下的利潤。", "budget": "預算基準", "spec": "{{size}} 呎 · {{days}} 日後安裝", "cta": "查看並接單", "disclaimer": "所有商業數字均為教學假設；體力及熱壓力不代表醫學評估。" },
+  "orders": {
+    "neighbourhood": { "level": "入門訂單", "title": "街坊天后誕", "description": "規模較小、工期較鬆，但收入未必足以攤薄租金。" },
+    "standard": { "level": "標準訂單", "title": "元朗天后誕", "description": "收入與風險較平衡，也是工場最常見的選擇。" },
+    "landmark": { "level": "高風險訂單", "title": "大型會景花牌", "description": "報價最高，但尺寸、趕工和安裝風險同時增加。" }
+  },
+  "decision": { "confirm": "確認選擇", "quoteBody": "{{title}}｜{{size}} 呎｜{{days}} 日後安裝。報得高，客戶也會要求更多。" },
+  "screens": {
+    "quote": { "eyebrow": "第 1 日 · 報價", "title": "這門手藝，值多少錢？", "body": "報得低，訂單較容易談成；報得高，客戶也會要求更多。", "options": {
+      "low": { "title": "搶單價", "note": "直接接受，但不接受追加收費。" }, "fair": { "title": "合理價", "note": "規格和風險較平衡。" }, "craft": { "title": "手藝價", "note": "客戶接受，但要求更精細裝飾。" } } },
+    "craft": { "eyebrow": "第 1 日 · 定案", "title": "你會怎樣造這張花牌？", "body": "守住全部手工工序，代價就是更多材料和時間。", "options": {
+      "traditional": { "title": "傳統手工", "meta": "+18 工時", "note": "手寫文字、手造裝飾，完整保留工序。" }, "hybrid": { "title": "混合製作", "meta": "基準方案", "note": "打印底稿後填色，兼顧工期與手藝。" }, "prefab": { "title": "快速預製", "meta": "−16 工時", "note": "成本較低，但部分工藝不再由人手完成。" } } },
+    "staff": { "eyebrow": "第 2 日 · 分工", "title": "工場裡，要有多少雙手？", "body": "人手不是線性加速；學徒還需要師傅花時間教學。", "options": {
+      "solo": { "title": "師傅獨力完成", "meta": "省 HK$5,400", "note": "外援只在安裝時到場；疲勞和延誤風險大增。" }, "skilled": { "title": "兩名熟練工", "meta": "基準方案", "note": "工期、品質和成本較平衡。" }, "apprentice": { "title": "熟練工＋學徒", "meta": "+HK$1,600", "note": "短期多花教學時間，卻讓下一代真正參與。" } } },
+    "production": { "eyebrow": "第 3–6 日 · 製作", "title": "剩下四天，你如何安排？", "body": "今天多做一點，明天未必還有同樣的體力。", "options": {
+      "normal": { "title": "正常工作，保留休息", "meta": "體力較穩定", "note": "速度一般，重做風險最低。" }, "overtime": { "title": "每天加班兩小時", "meta": "+8 工時", "note": "進度較穩，但師傅合理人工同步增加。" }, "simplify": { "title": "簡化兩組裝飾", "meta": "省 10 工時", "note": "保住工期，但工藝完整度下降。" } } },
+    "changes": { "eyebrow": "第 6 日 · 客戶訊息", "title": "「多六個名字，順便改一改？」", "body": "距離裝車只剩十八小時。改字是重新排版、填色和乾燥。", "options": {
+      "free": { "title": "免費修改", "meta": "+8 工時", "note": "客戶滿意，但成本由工場承擔。" }, "charge": { "title": "收取改稿費", "meta": "+HK$1,500", "note": "把新增工作清楚列入合約。" }, "decline": { "title": "婉拒修改", "meta": "保住工期", "note": "成本不變，但可能失去下一張訂單。" } } },
+    "installation": { "eyebrow": "第 7 日 · 凌晨安裝", "title": "34°C，天亮前要掛好。", "body": "這是遊戲化熱壓力情境，不是醫學評估。", "options": {
+      "breaks": { "title": "每小時休息十分鐘", "meta": "+2 安裝小時", "note": "降低熱壓力，以較穩定速度完成。" }, "helpers": { "title": "增聘兩名搬運工", "meta": "+HK$1,500", "note": "在不犧牲休息下趕及完成。" }, "rush": { "title": "繼續趕工", "meta": "不增加現金支出", "note": "體力大跌，部件需要重裝。" } } }
+  },
+  "effects": { "customerPays": "客戶答應支付", "newRevenue": "新增收入", "materials": "材料成本", "externalLabour": "外聘人工", "logistics": "物流成本", "masterHours": "師傅工時", "workshopHours": "佔用工場", "energy": "體力", "craft": "工藝", "inheritance": "傳承", "satisfaction": "客戶滿意", "safety": "安全", "ledger": "帳目", "baseline": "維持基準", "points": "分" },
+  "outcome": { "kicker": "你的決定帶來甚麼？", "intro": "先看清楚這一步的代價，再繼續下一日。", "note": "這些變化已加入本局帳目；金額及分數均為教學假設。", "continue": "我明白了，繼續" },
+  "labour": {
+    "current": "現在要做", "mistakes": "嘗試錯誤：{{count}} 次", "correct": "正確：「{{action}}」完成。", "wrong": "未到「{{chosen}}」。先找出「{{expected}}」。體力 −1。", "hint": "根據提示，在打亂的圖片中找出正確工序。", "operations": "你用了 {{count}} 次操作完成。", "continue": "繼續安排工作",
+    "bamboo": { "kicker": "勞動體驗 · 紮架", "title": "親手完成一個竹架交叉位", "body": "依次完成四個紮作動作。現實中，每個動作都講求位置和力度，並要在整張花牌上反覆進行。", "completion": "你完成了一個交叉位。真正製作時，師傅要在數日內反覆完成類似動作，還要保持尺寸、力度和位置準確。", "actions": ["對位竹枝", "繞上麻繩", "收緊繩結", "檢查固定"] },
+    "carry": { "kicker": "勞動體驗 · 搬運定位", "title": "把六件大型部件逐一送到安裝位", "body": "跟著安裝次序搬運及定位。圖片呈現協作、環境與部件尺度，不代表真實重量、熱量消耗或安全評估。", "completion": "六件部件已送到定位。真實安裝還包括裝車、卸貨、抬升、固定、接駁和拆卸，而且往往要在清晨、酷熱或雨後場地完成。", "actions": ["搬出龍柱", "抬起鳳頂", "移送字牌", "定位左架", "定位右架", "安放燈組"] }
+  },
+  "common": { "close": "關閉對話框", "restart": "重新作另一組選擇" },
+  "status": { "none": "尚未選擇訂單", "unpaid": "未收尾款", "explain": "每次選擇後解釋變化", "verified": "帳目已核對" },
+  "settlement": { "kicker": "訂單完成 · 逐層結算", "title": "報價不等於\n真正留下的錢。", "intro": "客戶仍未支付的尾款是 {{amount}}。以下先計算整張訂單是否真正賺錢，再另外看手上現金。", "reveal": "再揭開一層", "margin": "經濟利潤率", "identity": "會計恆等式", "checked": "已核對", "rows": ["客戶答應支付（訂單收入）", "材料、人手及運輸（直接成本）", "未計師傅人工前剩下（營運結餘）", "師傅做工應得薪酬（{{hours}} 小時）", "這張訂單分擔的租金等（固定成本）", "全部成本扣除後（經濟利潤）"], "stages": ["01 本單結果", "02 全年壓力", "03 選擇回顧"], "ending": { "loss": "完成了花牌，卻倒貼了工場。", "thin": "生意完成，利潤微薄。", "profit": "這張訂單賺到錢了。", "kicker": "你的結局", "nextAnnual": "把鏡頭拉到全年", "nextHistory": "看看哪些選擇造成結果" }, "annual": { "kicker": "年度壓力測試 · 假設全年 12 張相同訂單", "revenue": "全年訂單收入", "direct": "全年直接成本", "labour": "全年師傅合理人工", "fixed": "12個月實際固定成本", "result": "全年經濟結果", "contribution": "每張可用來支付固定成本", "formula": "收入 − 直接成本 − 師傅合理人工", "breakEven": "損益平衡點", "orders": "{{count}} 張／年", "monthly": "平均每月約 {{count}} 張同類訂單", "impossible": "無法達到", "impossibleNote": "每接一張都不足以支付固定成本", "caveat": "這是依你本局選擇建立的教學情境，不代表花牌行業的真實全年收入。" }, "history": "你的選擇如何累積成結局", "apprentice": "換個身份：體驗學徒的一個月", "questions": "思考三個問題" },
+  "tags": { "loss": "虧損", "thin": "微利", "profit": "盈利", "overwork": "過勞", "rest": "保留休息", "craft": "守藝", "simplified": "工藝簡化", "hybrid": "混合製作", "inheritance": "傳承", "noApprentice": "沒有學徒" },
+  "reflection": { "kicker": "最後，想一想 · {{current}}/3", "questions": ["如果一份工作需要多年學習、長時間勞動和大型工場，實際收入卻不穩定，你會入行嗎？", "如果年輕人不入行，責任只在年輕人不感興趣嗎？", "當社會希望保留一項非物質文化遺產，保存成本應由師傅一個人承擔嗎？"], "answers": ["是", "不是", "不確定"], "note": "沒有標準答案；你的選擇只保留在這個畫面中。", "summaryKicker": "你的思考", "summaryTitle": "保存一門技藝，不能只靠師傅更加拼命。", "answer": "問題 {{number}}：{{value}}", "summary": "租金、合理採購、培訓資助和穩定訂單，都是傳承條件的一部分。", "back": "回到結算畫面" },
+  "apprentice": { "kicker": "第二視角 · 你是新入行學徒 · {{current}}/3", "questions": ["這個月只有十二日有工作，你接多少日？", "兩晚要凌晨安裝，每晚補貼 HK$300。", "想學會獨立紮作，師傅建議工餘練習。"], "options": [["十二日全部接下", "保留上學與休息，只接八日"], ["接受兩晚凌晨工作", "拒絕凌晨工作"], ["每週無薪練習四小時", "只在有薪時間學習"]], "dayRate": "日薪假設", "workDays": "本月有工開", "days12": "12 日", "energy": "體力", "resultKicker": "學徒的一個月 · 教學結算", "resultTitle": "努力學習，不等於足以生活。", "wages": "本月工資及補貼", "hours": "有薪及無薪投入", "hourly": "實際每投入一小時", "living": "基本生活開支假設", "balance": "月底尚欠", "caveat": "日薪、開工日數及生活開支全部是教學假設，用來呈現收入不穩定；不是行業統計。", "back": "帶著這個結果回到結局" }
+}
